@@ -19,7 +19,7 @@ public class _Parent {
      * hem bekleme hem scroll hem de clear özelliği kazanmış olacak.
      */
 
-    WebDriver driver;
+    public WebDriver driver;
     WebDriverWait wait;
 
     public _Parent() {

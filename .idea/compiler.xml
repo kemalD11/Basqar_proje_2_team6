@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Basqar_Proje_2_Team06" />
         <module name="Cucumber_Kursu" />
+        <module name="Basqar_proje_2_team6" />
       </profile>
     </annotationProcessing>
   </component>
