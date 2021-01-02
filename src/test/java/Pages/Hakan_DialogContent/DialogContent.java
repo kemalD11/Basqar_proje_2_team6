@@ -29,18 +29,14 @@ public class DialogContent extends _Parent{
         @FindBy(xpath = "//ms-add-button[@class='ng-star-inserted']")
         public WebElement addBtn;
 
-
         @FindBy(xpath = "(//input[contains(@data-placeholder,'Name')])[3]")
         public WebElement nameInput;
-
 
         @FindBy(xpath = "//input[contains(@formcontrolname,'shortName')]")
         public WebElement shortNameInput;
 
-
         @FindBy(xpath = "//input[contains(@formcontrolname,'multiplier')]")
         public WebElement multiplierInput;
-
 
         @FindBy(xpath = "//span[text()='Apply']")
         public WebElement applyFirstBtn;
@@ -48,38 +44,26 @@ public class DialogContent extends _Parent{
         @FindBy(xpath = "(//input[contains(@data-placeholder,'Name')])[1]")
         public WebElement editNameLineClick;
 
-
         @FindBy(xpath = "(//input[contains(@data-placeholder,'Name')])[1]")
         public WebElement repeatTheName;
-
 
         @FindBy(xpath = "//span[text()=' Search ']")
         public WebElement searchBtn;
 
-
         @FindBy(xpath = "//ms-edit-button[@class='ng-star-inserted']")
         public WebElement editBtn;
-
 
         @FindBy(xpath = "//input[contains(@name,'name')]")
         public WebElement newName;
 
-
         @FindBy(xpath = "//span[text()='Apply']")
         public WebElement applyEditBtn;
-
 
         @FindBy(xpath = "//ms-delete-button/button")
         public WebElement deleteBtn;
 
-
         @FindBy(xpath = "//span[text()=' Yes ']")
         public WebElement yesBtn;
-
-        @FindAll({
-                @FindBy(linkText = "Got it!")
-        })
-        private List<WebElement> gotItBtns;
 
 
         public void findElementAndClickFunction(String ElementName) {
