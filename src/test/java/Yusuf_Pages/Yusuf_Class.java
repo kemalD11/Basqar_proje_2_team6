@@ -1,4 +1,4 @@
-package Yusuf;
+package Yusuf_Pages;
 
 public class Yusuf_Class {
     public static void main(String[] args) {
