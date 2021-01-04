@@ -2,7 +2,7 @@ Feature: Notation Functionalty
 
   Background:
     Given Navigate to basqar
-    When Enter username and password and click Login button
+    When Enter username and password and click Login Button
     Then User should login successfully
 
   Scenario: View Notation Keys page

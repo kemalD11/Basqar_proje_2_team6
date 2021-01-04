@@ -1,6 +1,7 @@
 package StepDefinitions;
 
-import Pages.DialogContent;
+
+import Pages.BekirDialog.DialogContent;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 

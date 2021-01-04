@@ -5,7 +5,7 @@ Feature: All Steps
 
 
     Given Navigate to basqar
-    When Enter username and password and click Login button
+    When Enter username and password and click Login Button
 
     Then Navigate to Education Left page
       | HumanResources                 |

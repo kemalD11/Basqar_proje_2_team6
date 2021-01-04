@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.concurrent.TimeUnit;
 
-public class LoginPage extends Parent {
+public class LoginPage extends _Parent {
     public LoginPage() {
         PageFactory.initElements(driver, this);
     }

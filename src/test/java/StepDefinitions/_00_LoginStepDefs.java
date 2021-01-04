@@ -42,4 +42,8 @@ public class _00_LoginStepDefs {
         new LoginPage().checkTheMessage("errorAlert",message);
 
     }
+
+    @Then("^User should login successfully$")
+    public void userShouldLoginSuccessfully() {
+    }
 }

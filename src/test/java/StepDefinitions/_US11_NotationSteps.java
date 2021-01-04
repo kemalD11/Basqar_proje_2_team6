@@ -1,6 +1,7 @@
 package StepDefinitions;
 
-import Pages.DialogContent;
+
+import Pages.BekirDialog.DialogContent;
 import Pages._Parent;
 import Utilities.Driver;
 import cucumber.api.java.en.And;

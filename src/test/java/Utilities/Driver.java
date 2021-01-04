@@ -15,8 +15,8 @@ public class Driver {
     public static WebDriver getDriver() {
 
         if (threadDriver.get() == null) {
-//            threadBrowserName.set("chrome");
-            threadBrowserName.set("firefox");
+            threadBrowserName.set("chrome");
+//            threadBrowserName.set("firefox");
 
             switch (threadBrowserName.get()) {
                 case "chrome":
